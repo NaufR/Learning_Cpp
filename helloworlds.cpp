@@ -338,14 +338,132 @@ int main()
 */
 //String methode
 /*
+   length methode :  it will give you how much character in some string
+   ex : 
 
 
+   empty methode : check is string empty or not 
+   return Boolean value
+   ex :
+
+   clear() : if you give an input it won't show the input you give
+   ex :
 
 
+   append : adding/appending string to another end of string  
+   ex :
+
+   at(index) : give char at given position
+   ex :
+
+   insert(index, char) : insert char in string
 
 
+   find(char) : finding char in string, give position of char
+
+
+   erase(begin index, end index) : erasing char in string
+
+   You can read at string class in  c++.com web
 
 */
+// While loop
+/*
+
+   ex :
+
+#include <iostream>
+
+int main() 
+{
+   std::string name;
+   
+   while(name.empty()){
+      std::cout << "Enter your name: ";
+      std::getline(std::cin, name);
+   }
+   
+   std::cout << "Hello " << name;
+
+   return 0;
+}
+*/
+// Do while loop
+/*
+   Do some block of code first,
+   THEN repeat again if condition is true
+ex :
+
+   #include <iostream>
+ 
+int main()
+{
+   int number;
+
+   do{
+      std::cout << "Enter a positive #: ";
+      std::cin >> number;
+   }while(number < 0);
+
+   std::cout << "The # is: " << number;
+
+   return 0;
+}
+
+*/
+// For loop
+/*
+   ex:
+#include <iostream>
+ 
+int main()
+{
+   for(int i = 10; i <20 ; i++){
+      //count to 20
+      std::cout << i << '\n';
+   }
+ 
+   std::cout << "HAPPY NEW YEAR!\n";  
+ 
+   return 0;
+*/
+// Break & continue
+/*
+ Break = break out of a loop
+ Continue = skiping current iteration
+
+ ex:
+#include <iostream>
+
+int main()
+{
+    // break = break out of a loop
+    // continue = skip current iteration
+
+    for(int i = 1; i <= 20; i++){
+        if(i == 13){
+            //break;
+            //continue;
+        }
+        std::cout << i << '\n';
+    }
+
+    return 0;
+*/
+//Nested loop
+/*
+   Loop inside the loop
+   Loop the Loop 
+
+*/
+// Random
+/*
+   pseudo-random = NOT truly random(but close)
+   
+   srand(seed())
+
+*/
+//Function
 
 
 
